@@ -43,7 +43,7 @@ import java.util.List;
 
     @Override
     public String getUsername() {
-        return "";
+        return firstName+lastName;
     }
 
     @Override
